@@ -1,0 +1,20 @@
+{
+	"kind": "ConfigMap",
+	"apiVersion": "v1",
+	"metadata": {
+		"name": "first"
+	},
+	"data": {
+		"k": "v"
+	}
+}
+{
+	"kind": "ConfigMap",
+	"apiVersion": "v1",
+	"metadata": {
+		"name": "second"
+	},
+	"data": {
+		"k": "v"
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"file1.json": {
+		"kind": "ConfigMap",
+		"apiVersion": "v1",
+		"metadata": {
+			"name": "first"
+		},
+		"data": {
+			"k": "v",
+			"apiVersion": "av",
+			"kind": "kind"
+		}
+	},
+	"file2.json": {
+		"kind": "ConfigMap",
+		"apiVersion": "v1",
+		"metadata": {
+			"name": "second"
+		},
+		"data": {
+			"k": "v"
+		}
+	},
+	"files": [{
+		"kind": "ConfigMap",
+		"apiVersion": "v1",
+		"metadata": {
+			"name": "third"
+		},
+		"data": {
+			"k": "v"
+		}
+	}]
+}
